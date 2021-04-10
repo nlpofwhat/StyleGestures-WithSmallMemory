@@ -10,13 +10,13 @@ Overall I did two things to advoid OOM
 
 Before traing, I split big training file into small pieces.
 
-You should replace the "/StyleGestures-master/motion/datasets/locomotion.py" with locomotion_new.py
+You should replace the "/StyleGestures-master/motion/datasets/locomotion.py" with locomotion-new.py
 
 ## 2 Move the data-transform function to getitem
 
 Honestly, it takes  a lot of  time to acomplish this because the data-transform process of StyleGestures is super-complicated.
 
-You should replace the "/StyleGestures-master/motion/datasets/motion_data.py" with motion_data_new.py
+You should replace the "/StyleGestures-master/motion/datasets/motion_data.py" with motion_data-new.py
 
 ## 3 Remove some redundant "data.copy()"
 
