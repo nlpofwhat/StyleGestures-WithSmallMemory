@@ -4,7 +4,7 @@ Repair OOM(out of Memory) in StyleGestures
 
 The original repo: https://github.com/simonalexanderson/StyleGestures/
 
-Overall I did two things to advoid OOM
+Overall I did three things to advoid OOM
 
 ## 1 Split  files into pieces
 
