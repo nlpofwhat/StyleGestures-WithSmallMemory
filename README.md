@@ -21,3 +21,6 @@ You should replace the "/StyleGestures-master/motion/datasets/motion_data.py" wi
 ## 3 Remove some redundant "data.copy()"
 
 I found some data.copy() is unnecessary， but some is necessary. It depends on whether the data will be reused later. If not, the data.copy() is unnecessary.
+
+
+Finally, the code can run with about 6GB Memory and less than 12GB GPU Memory 
